@@ -2,3 +2,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
+
+spring.cloud.stream.kafka.binder.brokers: localhost
+spring.cloud.stream.kafka.binder.defaultBrokerPort: 9092
+spring.cloud.stream.kafka.binder.zkNodes: localhost
+spring.cloud.stream.kafka.binder.defaultZkPort: 2181
